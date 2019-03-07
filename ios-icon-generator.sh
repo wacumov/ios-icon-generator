@@ -97,7 +97,7 @@ $prog version $VERSION by $AUTHOR
 USAGE: $prog [OPTIONS] srcfile dstpath
 
 DESCRIPTION:
-    This script aim to generate iOS/macOS/watchOS APP icons more easier and simply.
+    This script aim to generate iOS APP icons more easier and simply.
 
     srcfile - The source png image. Preferably above 1024x1024
     dstpath - The destination path where the icons generate to.
@@ -154,8 +154,6 @@ fi
 [ ! -d "$dst_path" ] && mkdir -p "$dst_path"
 
 # ios sizes refer to https://developer.apple.com/design/human-interface-guidelines/ios/icons-and-images/app-icon/
-# macos sizes refer to https://developer.apple.com/design/human-interface-guidelines/macos/icons-and-images/app-icon/
-# watchos sizes refer to https://developer.apple.com/design/human-interface-guidelines/watchos/icons-and-images/home-screen-icons/
 # 
 # 
 # name size
@@ -199,7 +197,7 @@ done
 
 cp $basedir/Contents.json $dst_path/Contents.json
 
-info "Congratulation. All icons for iOS/macOS/watchOS APP are generate to the directory: $dst_path."
+info "Congratulation. All icons for iOS APP are generate to the directory: $dst_path."
 
 IFS=$OLD_IFS
 
