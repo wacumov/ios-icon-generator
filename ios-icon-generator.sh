@@ -189,8 +189,6 @@ do
     fi
 done
 
-cp $basedir/Contents.json $dst_path/Contents.json
-
 info "Congratulation. All icons for iOS APP are generate to the directory: $dst_path."
 
 IFS=$OLD_IFS
