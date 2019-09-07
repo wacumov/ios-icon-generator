@@ -159,23 +159,17 @@ fi
 # name size
 sizes_mapper=`cat << EOF
 Icon-20         20
-Icon-20@2x      40
-Icon-20@3x      60
 Icon-29         29
-Icon-29@2x      58
-Icon-29@3x      87
-Icon-40@2x      80
-Icon-40@3x      120
-Icon-60@3x      180
-Icon-50         50
-Icon-50@2x      100
-Icon-57         57
-Icon-57@2x      114
-Icon-72         72
-Icon-72@2x      144
+Icon-40         40
+Icon-58         58
+Icon-60         60
 Icon-76         76
-Icon-76@2x      152
-Icon-83.5@2x    167
+Icon-80         80
+Icon-87         87
+Icon-120        120
+Icon-152        152
+Icon-167        167
+Icon-180        180
 Icon-1024       1024
 EOF`
 
